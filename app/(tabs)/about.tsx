@@ -5,7 +5,7 @@ function AboutScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>This is the about screen</Text>
-      <Link style={styles.link} href={"/"}>
+      <Link style={styles.link} href={"/(tabs)"}>
         Home
       </Link>
       <Link style={styles.link} href={"/contacts"}>

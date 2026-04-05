@@ -5,7 +5,7 @@ function ContactsScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Contacts Screen</Text>
-      <Link style={styles.link} href={"/"}>
+      <Link style={styles.link} href={"/(tabs)"}>
         Home
       </Link>
       <Link style={styles.link} href={"/about"}>

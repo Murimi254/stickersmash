@@ -5,7 +5,7 @@ function NotFoundScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Not Found Screen</Text>
-      <Link style={styles.link} href={"/"}>
+      <Link style={styles.link} href={"/(tabs)"}>
         Back To Home
       </Link>
     </View>
