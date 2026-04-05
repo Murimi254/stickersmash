@@ -1,15 +1,12 @@
 import { Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 
-function AboutScreen() {
+function NotFoundScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>This is the about screen</Text>
+      <Text style={styles.text}>Not Found Screen</Text>
       <Link style={styles.link} href={"/"}>
-        Home
-      </Link>
-      <Link style={styles.link} href={"/contacts"}>
-        Contacts
+        Back To Home
       </Link>
     </View>
   );
@@ -18,18 +15,18 @@ function AboutScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#25292e",
-    justifyContent: "center",
     alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#25292e",
   },
   text: {
     color: "#ffffff",
   },
   link: {
-    color: "#ffffff",
     fontSize: 20,
     textDecorationLine: "underline",
+    color: "#ffffff",
   },
 });
 
-export default AboutScreen;
+export default NotFoundScreen;
